@@ -17,7 +17,7 @@ My clone of classic game Flappy Bird, created using pygame.
 ## Launch 
 Open Terminal/CMD 
 ```
-> main.py 
+> python main.py 
 ```
 If you dont have pygame or python
 > Download it!
