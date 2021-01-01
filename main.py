@@ -1,4 +1,7 @@
-import pygame, os, random, time
+import pygame
+import os
+import random
+import time
 pygame.init()
 
 SCREEN_WIDTH = 576
@@ -190,7 +193,6 @@ def main(screen):
             if event.type == pygame.QUIT: 
                 run = False
                 pygame.quit()
-                break
 
         keys = pygame.key.get_pressed()
         if keys[pygame.K_SPACE] and not lost: 
